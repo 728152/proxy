@@ -9,7 +9,7 @@ else
         echo "Instalando o proxy..."
         {
             rm -f /usr/bin/proxy
-            curl -s -L -o /usr/bin/proxy https://raw.githubusercontent.com/TelksBr/proxy/main/proxy
+            curl -s -L -o /usr/bin/proxy https://raw.githubusercontent.com/728152/proxy/main/proxy?token=GHSAT0AAAAAACG66IKKPFZAROHU3MK4DQFOZHP5S3Q
             chmod +x /usr/bin/proxy
         } > /dev/null 2>&1
         echo "Proxy instalado com sucesso."
